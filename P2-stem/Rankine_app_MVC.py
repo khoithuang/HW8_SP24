@@ -86,32 +86,32 @@ class MainWindow(qtw.QWidget, Ui_Form):
         self.setWindowTitle('s:{:0.2f} {}, T:{:0.2f} {}'.format(self.oldXData,sUnit, self.oldYData,TUnit))
 
     def Calculate(self):
-        self.rankineController.updateModel()
+        self.RC.updateModel()
         #JES Missing Code #call the updateModel() method of the controller
 
 
     def SelectQualityOrTHigh(self):
-        self.rankineController.selectQualityOrTHigh()
+        self.RC.selectQualityOrTHigh()
         #JES Missing code #call the selectQualityOrTHigh() methond of the controller
 
 
     def SetPlotVariables(self):
-        self.rankineController.updatePlot()
+        self.RC.updatePlot()
         #JES Missing Code # call the updatePlot() method of the controller
 
 
     def SetUnits(self):
-        self.rankineController.updateUnits()
+        self.RC.updateUnits()
         #JES Missing Code # call the updateUnits() method of the controller
 
 
     def setNewPHigh(self):
-        self.rankineController.setNewPHigh()
+        self.RC.setNewPHigh()
         #JES Missing Code # call the setNewPHigh() function of the controller
 
 
     def setNewPLow(self):
-        self.rankineController.setNewPLow()
+        self.RC.setNewPLow()
         #JES Missing Code # call the setNewPLow() function of the controller
 
 
